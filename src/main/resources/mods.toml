@@ -15,3 +15,8 @@ path = "dev.cosrnic.kloonmute.client.Client"
 
 [[mixins]]
 path = "kloonmute.mixins.json"
+
+[[transforms]]
+name = "option transform"
+target = "net.minecraft.client.Options"
+path = "dev.cosrnic.kloonmute.OptionsTransformation"

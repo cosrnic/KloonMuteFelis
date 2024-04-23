@@ -9,6 +9,6 @@ public class Mod implements CommonEntrypoint {
 
     @Override
     public void onInit() {
-        LOGGER.info("Example mod has been initialized");
+
     }
 }

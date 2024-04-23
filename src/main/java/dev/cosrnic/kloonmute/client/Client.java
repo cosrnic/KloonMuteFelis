@@ -2,7 +2,6 @@ package dev.cosrnic.kloonmute.client;
 
 import com.mojang.blaze3d.platform.InputConstants;
 import felis.kittens.core.client.ClientEntrypoint;
-import dev.cosrnic.kloonmute.Mod;
 import felis.kittens.core.event.GameEvents;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.KeyMapping;
@@ -21,7 +20,6 @@ public class Client implements ClientEntrypoint {
 
     @Override
     public void onClientInit() {
-        Mod.LOGGER.info("Client has been initialized");
 
         GameEvents.Player.Tick.end.register(player -> {
             if (key.consumeClick()) {
