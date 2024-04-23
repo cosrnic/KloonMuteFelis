@@ -2,8 +2,8 @@ plugins {
     id "felis-dam" version "1.7.4-alpha"
 }
 
-group = 'org.example'
-version = '1.0-SNAPSHOT'
+group = 'dev.cosrnic'
+version = '1.0'
 
 loaderMake {
     version = "1.20.5"
