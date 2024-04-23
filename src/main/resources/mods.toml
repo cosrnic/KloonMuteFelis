@@ -1,17 +1,17 @@
-name = "Example Mod"
-modid = "example"
+name = "KloonMute Felis"
+modid = "kloonmute"
 description = """
-Cool description for your project.
+KloonMute but its for Felis
 """
 version = "${version}"
 
 [[entrypoints]]
 id = "common"
-path = "org.example.mod.ExampleMod"
+path = "dev.cosrnic.kloonmute.Mod"
 
 [[entrypoints]]
 id = "client"
-path = "org.example.mod.client.ExampleModClient"
+path = "dev.cosrnic.kloonmute.client.Client"
 
 [[mixins]]
-path = "example.mixins.json"
+path = "kloonmute.mixins.json"

@@ -8,5 +8,5 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
-rootProject.name = 'example-mod'
+rootProject.name = 'KloonMuteFelis'
 

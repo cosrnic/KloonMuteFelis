@@ -1,10 +1,10 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "org.example.mod.mixin",
+  "package": "dev.cosrnic.kloonmute.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "ExampleMixin"
+    "OptionMixin"
   ],
   "injectors": {
     "defaultRequire": 1

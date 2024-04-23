@@ -1,0 +1,8 @@
+{
+  "key.kloonmute.mute_key": "Toggle Mute",
+  "key.kloonmute.category": "KloonMute",
+
+  "kloonmute.muted": "Muted the game!",
+  "kloonmute.unmuted": "Un-muted!",
+  "kloonmute.error": "Couldn't unmute! Do it yourself!"
+}
