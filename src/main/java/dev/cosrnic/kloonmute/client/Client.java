@@ -21,7 +21,6 @@ public class Client implements ClientEntrypoint {
 
     @Override
     public void onClientInit() {
-        Mod.LOGGER.info("Client has been initialized");
 
         GameEvents.Player.Tick.end.register(player -> {
             if (key.consumeClick()) {
